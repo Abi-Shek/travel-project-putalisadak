@@ -111,14 +111,14 @@
      @foreach($views as $selid)
     <li>
 
-            
-
-                   
 
 
-                  
-                   
-           
+
+
+
+
+
+
                             <div class="overview-box">
                                 <h3 class="uk-card-title">
                                   {{$selid -> head}}
@@ -126,12 +126,12 @@
                                 <p> <b>Lie at :</b> {{$selid -> location}}.</p>
                                  <p> <b>At</b> {{$selid -> altitude}}m height.</p>
                                   <p> <b>Attractions:</b> {{$selid -> attraction}}.</p>
-                             
+
                                  <p> <b>Local things to feel:</b> {{$selid -> local}}.</p>
                                   <p> <b>Can do:</b> {{$selid -> cando}}.</p>
                                    <p> <b>Duration of trip:</b> {{$selid -> duration}}  days.</p>
 
-                               <p> <?php 
+                               <p> <?php
                 if(isset($_SESSION['sessname'])){?>
 <a class="uk-button uk-button-default btn-global" href="/userdashboard?post_name={{ $selid -> head }}&post_id={{ $selid -> id }}">Book Now</a>
 
@@ -143,20 +143,20 @@ else{?>
     <?php
 }
 ?></p>
-                               
+
                             </div>
-                     
-                          
-                    
+
+
+
 
             </li>
             @endforeach
 
 
-            
+
 
     <li>
-         
+
 
        @foreach($views as $selid)
                    <p> <b>Description:</b> <br> {{$selid -> description}}</p>
@@ -175,7 +175,7 @@ else{?>
                </p>
             @endforeach</li>
      <li>
-         
+
         @foreach ($detgall as $gall)
 
         <img src="image/destination/{{ $gall -> image }}" height="300px" width="420px">
@@ -194,25 +194,50 @@ else{?>
 
  <h2 class="header-title"> <span class="header-title-span">Similar</span> <br>
                 DESTINATIONS</h2>
-               
+
 <div class="uk-child-width-1-3@m" uk-grid>
  @foreach ($same as $similar)
     <div>
+{{--        <div class="uk-card uk-card-default">--}}
+{{--           <h2 class="uk-card-title " style="font-size: 16px !important;font-weight: bold;">{{$similar -> head}}</h2>--}}
+{{--            <div class="uk-card-media-top">--}}
+{{--              <img src="image/destination/{{$similar -> feat}}" style="height: 180px !important;width: 100% !important;">--}}
+{{--            </div>--}}
+{{--            <div class="uk-card-body " style="height: unset !important;">--}}
+
+{{--              <a href="detail?post_name={{$similar -> head}}&post_id={{$similar -> id}}" ><button class="uk-button-default btn-global uk-button ">View More</button>--}}
+{{--  </a>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+
+
+
         <div class="uk-card uk-card-default">
-           <h2 class="uk-card-title" style="font-size: 16px !important;font-weight: bold;">{{$similar -> head}}</h2>
             <div class="uk-card-media-top">
-              <img src="image/destination/{{$similar -> feat}}" style="height: 180px !important;width: 100% !important;">
+                <img src="image/destination/{{$similar -> feat}}" height="151px" alt="">
             </div>
-            <div class="uk-card-body " style="height: unset !important;">
-               
-              <a href="detail?post_name={{$similar -> head}}&post_id={{$similar -> id}}" ><button class="uk-button-default btn-global uk-button ">View More</button>
-  </a>
+            <div class="uk-card ">
+                <div class="uk-margin-small">
+
+                    <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small uk-margin-medium-bottom" style="font-size: 16px">
+                        {{$similar -> head}}
+                    </h4>
+
+<div class="uk-clearfix"></div>
+
+                    <a class="uk-button uk-button-default btn-global uk-text-center" href="detail?post_name={{$similar -> head}}&post_id={{$similar -> id}}">View More</a>
+
+                </div>
             </div>
         </div>
+
+
+
+
     </div>
       @endforeach
 +  </div>
- 
+
 
 <!-- <div class="uk-card uk-card-default uk-card-small">
 
@@ -229,18 +254,18 @@ else{?>
 </div>
  -->
             </div>
-            
+
 
             <div class="uk-width-1-4@m  eventsidecontent">
 
 
-    <!--          <div id="card" style="width: 100px;height: 200px"> 
-  <div class="front uk-card-default uk-card-body"> 
+    <!--          <div id="card" style="width: 100px;height: 200px">
+  <div class="front uk-card-default uk-card-body">
   <h2>hello</h2>
-  </div> 
+  </div>
   <div class="back  uk-card-default uk-card-body">
    <h2>hello</h2>
-  </div> 
+  </div>
 </div>
  -->
 
@@ -259,7 +284,7 @@ else{?>
                   <p class="uk-text-center" style="color: white;font-size: 18px;"><b style="color:black;font-size: 20px;">Destination Type</b><br>
                    {{ $package -> dtype }}
                   @endforeach
-       
+
             </div>
                 </div>
                     <div class="back">
@@ -267,7 +292,7 @@ else{?>
                 background: #03A9F4; width: 100%;height: 400px">
                        @foreach($views as $selid)
 
-                       <?php 
+                       <?php
                 if(isset($_SESSION['sessname'])){?>
 <a href="/userdashboard?post_name={{ $selid -> head }}&post_id={{ $selid -> id }}"><button class="uk-button uk-button-default btn-global ">Book Now</button></a>
 
@@ -283,7 +308,7 @@ else{?>
                       <!--  <button class="uk-button-default btn-global uk-button ">Book Now</button> -->
 
                        @endforeach
-                  
+
 
                        </p>
                     </div>

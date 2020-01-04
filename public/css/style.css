@@ -387,6 +387,29 @@ span.flatpickr-weekday {
     height: 151.97px!important;
 }
 
+
+
+/*.popular-destination {*/
+
+/*}*/
+
+
+.p-button{
+    color:#0c93d1;
+    /*border: 1px solid;*/
+    border: none;
+    width: 100%;
+    background: #FCFCFC;
+    height: 39px;
+}
+
+.p-button:hover{
+    transition: all ease-in-out 0.2s;
+    color: white;
+    width: 100%;
+    background: #0C93D1;
+
+}
 /*hir*/
 
 .content-slider-box h3 {

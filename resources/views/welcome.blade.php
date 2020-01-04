@@ -397,7 +397,7 @@ else{
                             <div class="uk-card-media-top">
                                 <img src="{{asset('image/destination/chitwan-national-park.jpg')}}"  height="151px" alt="">
                             </div>
-                            <div class="uk-card ">
+                            <div class="uk-card  uk-text-center">
                                 <div class="uk-margin-small">
 
                                   <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small">
@@ -406,7 +406,7 @@ else{
 
 
 
-                                    <a class="uk-button uk-button-default btn-global  uk-margin-large-left uk-margin-small-bottom" href="detail?post_name=POKHARA&post_id=4">View More</a>
+                                    <a class="uk-button uk-button-default btn-global" href="detail?post_name=POKHARA&post_id=4">View More</a>
 
                                 </div>
                             </div>
@@ -423,7 +423,7 @@ else{
                             <div class="uk-card-media-top">
                                 <img src="{{asset('image/destination/gokyo-4048058_1280.jpg')}}" height="151px"  alt="">
                             </div>
-                            <div class="uk-card ">
+                            <div class="uk-card uk-text-center ">
                                 <div class="uk-margin-small">
 
                                     <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small">
@@ -432,7 +432,7 @@ else{
 
 
 
-                                    <a class="uk-button uk-button-default btn-global  uk-margin-large-left uk-margin-small-bottom" href="detail?post_name=POKHARA&post_id=4">View More</a>
+                                    <a class="uk-button uk-button-default btn-global " href="detail?post_name=POKHARA&post_id=4">View More</a>
 
                                 </div>
                             </div>
@@ -450,7 +450,7 @@ else{
                             <div class="uk-card-media-top">
                                 <img src="{{asset('image/destination/pokhara3.jpg')}}" height="151px"alt="">
                             </div>
-                            <div class="uk-card ">
+                            <div class="uk-card  uk-text-center">
                                 <div class="uk-margin-small">
 
                                     <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small">
@@ -459,7 +459,7 @@ else{
 
 
 
-                                    <a class="uk-button uk-button-default btn-global  uk-margin-large-left uk-margin-small-bottom" href="detail?post_name=POKHARA&post_id=4">View More</a>
+                                    <a class="uk-button uk-button-default btn-global " href="detail?post_name=POKHARA&post_id=4">View More</a>
 
                                 </div>
                             </div>
@@ -480,7 +480,7 @@ else{
                             <div class="uk-card-media-top">
                                 <img src="{{asset('image/holidayskathmandu.jpg')}}" height="151px" alt="">
                             </div>
-                            <div class="uk-card ">
+                            <div class="uk-card uk-text-center ">
                                 <div class="uk-margin-small">
 
                                     <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small">
@@ -489,7 +489,7 @@ else{
 
 
 
-                                    <a class="uk-button uk-button-default btn-global  uk-margin-large-left uk-margin-small-bottom" href="detail?post_name=POKHARA&post_id=4">View More</a>
+                                    <a class="uk-button uk-button-default btn-global" href="detail?post_name=POKHARA&post_id=4">View More</a>
 
                                 </div>
                             </div>
@@ -509,7 +509,7 @@ else{
                             <div class="uk-card-media-top">
                                 <img src="{{asset('image/destination/annapurna101.jpg')}}" height="151px" alt="">
                             </div>
-                            <div class="uk-card ">
+                            <div class="uk-card uk-text-center ">
                                 <div class="uk-margin-small">
 
                                     <h4 class="uk-text-medium uk-text-center uk-text-bold uk-padding-small">
@@ -518,7 +518,7 @@ else{
 
 
 
-                                    <a class="uk-button uk-button-default btn-global  uk-margin-large-left uk-margin-small-bottom" href="detail?post_name=POKHARA&post_id=4">View More</a>
+                                    <a class="uk-button uk-button-default btn-global" href="detail?post_name=POKHARA&post_id=4">View More</a>
 
                                 </div>
                             </div>
