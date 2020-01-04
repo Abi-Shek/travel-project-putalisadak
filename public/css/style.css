@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ADMIN */
+
+#admins .uk-form-icon,
+#admins .uk-icon {
+    color: black !important;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))!important;
+}
+
+.uk-banner-text .uk-button-default:hover {
+    /* background-color:#2196F3; */
+    background-color: white;
+    transition: all ease-in-out .5s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: black;
+    transform: translateY(-3px);
+}
+
+.uk-banner-text .uk-button-default:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+}
+
+.right-navbar li a {
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.right-navbar li a:hover {
+    color: #03A9F4!important;
+    transition: all .5s;
+}
+
+#loginmenu li a:hover {
+    color: black!important;
+    transition: all .5s;
+}
+
+.uk-sticky-fixed li a:hover {
+    color: black!important;
+}
+
+.navbar-left a h3 {
+    line-height: 40px;
+}
+
+.uk-navbar-dropdown-width-5:not(.uk-navbar-dropdown-stack) {
+    width: 1000px!important;
+}
+
+.uk-search-icon svg {
+    margin-top: 6px;
+    width: 50px;
+    height: 30px;
+}
+
+.uk-banner-text .uk-button-default {
+    background-color: white;
+    color: black;
+    /*padding:2px 60px;*/
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.navbar h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar span {
+    font-weight: 400;
+    color: #03A9F4;
+}
+
+.navbar-btn-signup {
+    padding: 10px 30px!important;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #03A9F4;
+}
+
+
+/*mobile navbar */
+
+.uk-navbar-toggle.uk-open,
+.uk-navbar-toggle:focus,
+.uk-navbar-toggle:hover svg {
+    color: white;
+}
+
+.uk-navbar-toggle-icon svg {
+    color: white!important;
+}
+
+.uk-navbar-toggle.uk-open,
+.uk-navbar-toggle:focus,
+.uk-navbar-toggle:hover {}
+
+.uk-open>.uk-offcanvas-bar {
+    background: white;
+    color: black;
+}
+
+#noti .uk-badge {
+    color: #03A9F4;
+    font-weight: bold;
+    background: white;
+}
+
+#noti .uk-badge:hover {
+    color: white;
+    background: #03A9F4;
+}
+
+.mobilenav li a {
+    color: black!important;
+}
+
+.mobilenav li a:hover {
+    color: #03A9F4!important;
+}
+
+.mobilenav .uk-nav-header {
+    color: #03A9F4!important;
+}
+
+
+/*.navbarbox{*/
+
+
+/*}*/
+
+.mobilenav-input {
+    background-color: #03A9F4!important;
+}
+
+.hamburger .uk-navbar-toggle-icon svg {
+    height: 20px;
+}
+
+.uk-close svg {
+    color: #03A9F4;
+}
+
+
+/*responsive  offcanvas-bar*/
+
+.uk-offcanvas-bar {
+    background-color: white!important;
+}
+
+
+/*media query*/
+
+@media (min-width: 270px) {
+    .btn-global {
+        margin: 3px;
+    }
+}
+
+.btn-global {
+    border-radius: 100px;
+    background: rgb(12, 147, 209);
+    color: white;
+}
+
+.btn-global:hover {
+    background: rgb(24, 167, 233)!important;
+    color: white!important;
+}
+
+@media(min-height: 650px) {
+    .btn-global {
+        border-radius: 100px;
+        background: rgb(12, 147, 209);
+        color: white;
+    }
+}
+
+.uk-alert {
+    z-index: 9999 !important;
+}
+
+.btn-global:hover {
+    background: rgb(24, 167, 233)!important;
+    color: white!important;
+}
+
+.uk-slidenav svg {
+    width: 16px;
+    color: #03A9F4;
+}
+
+.btn-navbar a {
+    width: 150px;
+    border-radius: 100px;
+}
+
+.header-right .uk-select:not([multiple]):not([size]) {
+    height: 25px;
+    background: transparent;
+    color: white;
+}
+
+.header li a {
+    margin-top: 10px;
+}
+
+.header li a {
+    min-height: 21px!important;
+}
+
+.navbar li a {
+    min-height: 30px;
+}
+
+.uk-navbar li a {
+    color: white!important;
+}
+
+.uk-navbar .uk-navbar-dropdown li a {
+    color: black!important;
+}
+
+.uk-navbar .uk-navbar-dropdown li a:hover {
+    color: #03A9F4!important;
+}
+
+.navbar-drop ul li a {
+    color: black!important;
+}
+
+.search-modal {
+    /* background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8))!important; */
+    background: #03A9F4;
+    color: white;
+}
+
+.search-modal-text {
+    color: white;
+}
+
+.modal-search input::placeholder {
+    color: white;
+}
+
+.modal-search button {
+    background: transparent;
+}
+
+.modal-search button svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.header-line {
+    margin-top: 10px;
+    background-color: white!important;
+    border: 0.5px solid;
+}
+
+.caption {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+.caption h2 {
+    width: 300px;
+    /* margin-left: 50%;*/
+}
+
+.caption p {
+    width: 800px;
+}
+
+.banner-category {
+    /* margin-top: 100px; */
+    background: none;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.border-right {
+    margin-top: 25px!important;
+}
+
+.border-right p {
+    /* border-right: 0.5px solid gray!important; */
+    color: white;
+}
+
+.category-box {
+    margin-top: 100px;
+}
+
+.category .uk-grid div {
+    width: 150px!important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.category {
+    margin-left: 22%;
+}
+
+.header-title-span {
+    font-size: 15px;
+    color: #03A9F4;
+    font-weight: 400;
+}
+
+.header-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.popularly-most img {
+    height: 500px!important;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.uk-light svg {
+    color: white;
+    /*    width: 100px;*/
+    height: 30px;
+}
+
+
+/* .destination-slider{
+    background: linear-gradient(180deg, rgb(65, 165, 247) 0%, rgba(27,40,198,1) 100%);
+} */
+
+span.flatpickr-weekday {
+    color: white;
+}
+
+.destintination-categorybox img {
+    height: 200px;
+}
+
+.holiday-destination a {
+    background: #03A9F4;
+}
+
+.search-btn-content {
+    border: none;
+}
+
+
+/* search content */
+
+.search-content label {
+    font-size: 20px;
+}
+
+.search-content .uk-input {
+    width: 274px;
+    height: 60px;
+}
+
+.search-content .uk-select:not([multiple]):not([size]) {
+    height: 60px;
+}
+
+
+/* popular destination  */
+
+.popular-destination li img {
+
+    height: 151.97px!important;
+}
+
+/*hir*/
+
+.content-slider-box h3 {
+    padding: 20px;
+}
+
+.content-slider-box p {
+    padding: 10px;
+}
+
+.search-tour {
+    background: #03A9F4;
+}
+
+.search-header span {
+    color: white!important;
+}
+
+.search-content label {
+    color: white;
+}
+
+.search-content-btn {
+    background: white;
+    border-radius: 100px;
+    color: black;
+}
+
+.search-content-btn:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.parallax {
+    background-image: url("../image/gokyo.jpg");
+    /* width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+    height: 500px;
+}
+
+.parallax .uk-overlay-default {
+    position: relative;
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.parallax-content-box {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+.parallax-content-box h1 {
+    margin-top: 200px;
+}
+
+.uk-card-body {
+    height: 200px;
+}
+
+.footer {
+    background-color: #03A9F4;
+}
+
+.thingstodo img {
+    width: 100%;
+    height: 229.33px!important;
+}
+
+.thingstodo-overlay {
+    height: 300px!important;
+}
+
+.footer-content {
+    color: white;
+}
+
+.social-icon li {
+    display: inline!important;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer-content h4 {
+    font-weight: 700;
+    color: white;
+}
+
+
+/* login navbar */
+
+.login-navbar {
+    background-color: #03A9F4;
+    color: white;
+}
+
+.login-btn-navbar .uk-button-default {
+    margin-top: 22px;
+    /* line-height: 40px; */
+    width: 144px;
+    min-height: 42px;
+    /* padding: 0px; */
+    border-radius: 100px;
+}
+
+.login-btn-navbar a {
+    color: white;
+}
+
+.right-navbar-login li a:hover {
+    color: white!important;
+}
+
+.form-bg {
+    margin-top: 10px;
+    background-color: #03A9F4;
+    color: white;
+}
+
+.form-bg {
+    border-radius: 100px;
+    padding: 0px 30px;
+}
+
+.form-g {
+    padding-left: 47px;
+    padding-right: 35px;
+}
+
+.form-bg:hover {
+    background: rgb(24, 167, 233)!important;
+    color: white;
+}
+
+.login-footer {
+    margin-top: 55px!important;
+}
+
+.signup-form-cardbox {
+    height: 400px;
+}
+
+
+/*USER DASHBOARD CSS*/
+
+.userdashboardbanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../image/holidayspokhara.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#u-d .userdashboardbanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../image/holidayspokhara.jpg");
+    width: 100%;
+    height: unset !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*.userdashboardbannerbox{*/
+
+
+/*    width: 80%;*/
+
+
+/*}*/
+
+.userdashboardbox h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.userdashboardbox p {
+    color: white;
+}
+
+.userdashboardsearch .uk-search-input {
+    color: white!important;
+}
+
+.userdashboardsearch .uk-search-input::placeholder {
+    color: white;
+}
+
+.userdashboardsearch svg {
+    color: white;
+}
+
+#userdashboardsection .uk-card-body {
+    height: auto;
+}
+
+
+/*Contact page css*/
+
+.contactbox .uk-card-body {
+    height: 500px;
+}
+
+.contactbox .uk-list li a {
+    font-size: 18px;
+    color: black;
+}
+
+
+/*event page style*/
+
+
+/*.event-box .eventmaincontent{*/
+
+
+/*    width: 800px;*/
+
+
+/*}*/
+
+
+/*.event-box .eventsidecontent{*/
+
+
+/*    width: 400px;*/
+
+
+/*}*/
+
+.back button {
+    margin-left: 60px;
+    margin-top: 150px;
+    background: white;
+    color: black;
+}
+
+.back button:hover {
+    border-color: white!important;
+}
+
+
+/*welcome -> banner icon svg css*/
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.banner-category svg {
+    width: 100px!important;
+    height: 50px;
+}
+
+.banner-category {
+    width: 150px!important
+}
+
+.banner-category p a {
+    text-decoration: none;
+}
+
+.banner-category a,
+.banner-category svg {
+    transition: all ease-in-out .3s;
+}
+
+.banner-category:hover a,
+.banner-category svg:hover,
+.banner-category:hover svg {
+    color: #03A9F4!important;
+    cursor: pointer;
+    transform: translateY(5px);
+    transition: all ease-in-out .3s;
+}
+
+
+/*admin dashboard css*/
+
+.adminnav {
+    background: #03A9F4!important;
+}
+
+#destform #select {
+    /*  background-color:rgb(12, 147, 209)!important;*/
+    border-color: rgb(12, 147, 209)!important;
+    /*color:rgb(12, 147, 209)!important;;*/
+}
+
+#destform #select option {
+    background: white !important;
+    color: grey !important;
+}
+
+#userbooking {
+    background: url(../image/world.png);
+    background-size: contain;
+    /*background-position: ;*/
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes slides {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 100px;
+    }
+}
+
+@keyframes slides {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 100px;
+    }
+}
+
+.iconslider {
+    position: relative;
+    margin-left: 40%;
+    color: white;
+    animation: slides infinite 2s;
+    -webkit-animation: slides infinite 2s;
+}
+
+element.style {}
+
+.uk-grid>*>:last-child {
+    margin-bottom: 0;
+}
+
+.my-divider-vertical {
+    width: 20px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: 12px;
+    border-left: 5px solid #e5e5e5;
+}
+
+.myadd {
+    height: 200px;
+    clip-path: polygon(55% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 45% 10%, 50% 0);
+    background: #3c3c3d;
+}
+
+.planclip {
+    width: 40%;
+}
+
+.hidebtn1 {
+    display: none !important;
+}
+
+.my-divider-small {
+    width: 300px;
+    height: 4px;
+    background-color: #e5e5e5;
+    margin-top: 70%;
+    margin-left: -7%;
+    margin-right: -10px;
+    /*border-left: 5px solid #e5e5e5; */
+}
+
+@media(max-width: 746px) {
+    .my-divider-small {
+        display: none;
+    }
+    .maplocate {
+        position: unset !important;
+    }
+    #billoverview {
+        position: unset !important;
+        margin-top: 20px;
+        background-color: unset !important;
+    }
+    .planclip {
+        width: 80% !important;
+    }
+    .hidebtn {
+        display: none;
+    }
+    .hidebtn1 {
+        display: block !important;
+    }
+    .myadd {
+        height: auto !important;
+        padding: 30px 0px;
+    }
+}
+
+#plannedDestination .uk-width-2-3 {
+    /*background:linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.2)), url(../image/tour.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;*/
+}
+
+#plannedDestination .uk-badge {
+    min-width: 30px !important;
+    height: 30px !important;
+}
+
+#plannedDestination .mid {
+    margin-right: -5% !important;
+}
+
+#plannedDestination button {
+    /*margin-top: 65%;
+     margin-left: 0px !important;*/
+}
+
+#billoverview .uk-table td,
+#billoverview .uk-table tr,
+#billoverview .uk-table th {
+    padding: 3px;
+    vertical-align: unset;
+    font-size: 12px;
+}
+
+#billoverview .uk-table td {
+    color: rgb(12, 147, 209);
+}
+
+#billoverview .uk-icon {
+    color: silver;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.margins {
+    margin: 0px !important;
+    color: black;
+    text-align: justify;
+}
+
+.margins b {
+    color: white;
+}
+
+.triangle {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 10px);
+    height: 0px;
+    width: 0px;
+    border-top: 10px solid rgb(12, 147, 209);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.uk-tooltip {
+    background: rgb(12, 147, 209) !important;
+}
+
+
+
+/*MAP*/
+.check {
+    background: black;
+    /*display: block;
+*/
+
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f041';
+    position: absolute;
+    padding: 1px;
+    top: -20px;
+    left: -2px;
+}
+.titled {
+    /*color: ;*/
+}
+.shortcut span {
+    color: black;
+}
+.shortcut b {
+    font-size: 48px;
+    color: rgb(12, 147, 209);
+}
